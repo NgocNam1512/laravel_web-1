@@ -27,9 +27,9 @@
                     <div class="classynav">
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li><a href="myexam">My Exam</a></li>
-                            <li><a href="exam">Exam</a></li>
-                            <li><a href="contact">Contact</a></li>
+                            <li><a href="/myexam">My Exam</a></li>
+                            <li><a href="/exam">Exam</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
 
                         <!-- Search Button -->

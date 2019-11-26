@@ -17,9 +17,14 @@ class ExamController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function getExam()
+    public function getExamList()
     {
         $exams = DB::table('exam')->get();
-        return view('exam',['exams'=>$exams]);
+        return view('examList',['exams'=>$exams]);
+    }
+
+    public function getExam()
+    {
+        return view('exam');
     }
 }

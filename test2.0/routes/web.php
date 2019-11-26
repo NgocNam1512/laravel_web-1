@@ -16,7 +16,7 @@ Auth::routes();
 Route::get('/myexam', 'MyExamController@getMyExam');
 Route::post('/myexam','MyExamController@postMyExam')->name('postmyexam');
 Route::get('/myexam/{id}','MyExamController@getCreateExam');
-Route::get('/exam','ExamController@getExam');
+Route::get('/exam','ExamController@getExamList');
 Route::get('exam/1','ExamController@getExam');
 
 
