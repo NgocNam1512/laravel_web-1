@@ -1,33 +1,42 @@
-body{
+body {
     background-color: #f8f9fc;
 }
-.header-text{
+
+.header-text {
     padding: 2.5% 0 2.5% 0;
 }
-.card-content{
+
+.card-content {
     padding: 7.5% 5% 7.5% 5%;
 }
-.your-create{
+
+.your-create {
     border-left: .25rem solid #4e73df!important
 }
-.your-running{
+
+.your-running {
     border-left: .25rem solid #1cc88a!important;
 }
-.your-join{
+
+.your-join {
     border-left: .25rem solid #36b9cc!important;
 }
-.icon-size{
+
+.icon-size {
     font-size: 84px;
     float: right;
     padding: 5% 0 5% 0;
 }
-.search{
+
+.search {
     padding: 2.5% 0 2.5% 0;
 }
-.search-form{
+
+.search-form {
     float: right;
 }
-.color-white{
+
+.color-white {
     color: white;
 }
 
@@ -69,4 +78,25 @@ body{
     cursor: pointer
 }
 
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
 
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}

@@ -11,18 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/', 'HomeController@index')->name('home');
 Auth::routes();
+Route::get('/myexam', 'MyExamController@getMyExam');
+Route::post('/myexam','MyExamController@postMyExam')->name('postmyexam');
+Route::get('/myexam/{id}','MyExamController@getCreateExam');
 
-Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/signin',function(){
-    return view('signin');
-});
-Route::post('/signin','AuthController@login')->name('signin');
+
 
 
 
